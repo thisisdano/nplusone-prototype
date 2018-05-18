@@ -3,35 +3,18 @@ layout: basic
 title: n+1 prototype
 ---
 
- <div class="">
-   <nav class="nav add-smoothing size-sans-4 bg-gray-warm-90 color-white">
-     <div class="row">
-       <div class="row col">
-         <a href="#0" class="col-auto padding-y-105 padding-x-2 color-gray-warm-60 bg-black">
-           <img class="height-3" src="{{ 'assets/img/nplusone-logo.svg' | relative_url }}" alt="n+1 logo">
-         </a>
-         <a href="#0" class="col-auto nav-link color-red-warm-50 bg-black hover:color-blue-50v">
-           Subscribe
-         </a>
-         <a href="#0" class="col-auto nav-link">
-           Magazine
-         </a href="#0">
-         <a href="#0" class="col-auto nav-link">
-           Online Only
-         </a>
-         <a href="#0" class="col-auto nav-link">
-           Bookstore
-         </a>
-         <a href="#0" class="col-auto nav-link">
-           Events
-         </a>
-         <a href="#0" class="col-auto nav-link">
-           Donate
-         </a>
-       </div>
-       <a href="#0" class="col-auto nav-link-signin">
-         Sign in
-       </a>
-     </div>
-   </nav>
- </div>
+{% include nav.html %}
+
+<div class="container-desktop margin-2 desktop:margin-x-auto">
+  <div class="row border-05 border-gray-warm-90 padding-x-2 padding-y-3">
+    <div class="col-3 display-flex flex-align-center text-center">
+      <p class="text-left width-full margin-0 size-sans-4 text-700">Issue 32</p>
+    </div>
+    <div class="col-6 display-flex flex-align-center">
+      <p class="text-center width-full size-sans-10 text-200 margin-0 line-height-sans-1 padding-bottom-2px">Permaculture</p>
+    </div>
+    <div class="col-3 display-flex flex-align-center text-center">
+      <p class="text-right width-full margin-0 size-sans-4 text-700 color-red-warm-50">Out now</p>
+    </div>
+  </div>
+</div>
