@@ -38,3 +38,18 @@ nav a {
   @include color(white);
   @include text('no-underline');
 }
+
+.nav-link {
+  @include padding(2);
+  &:hover{
+    @include color('red-warm', 50);
+  }
+  &-signin {
+    @include bg('red-warm', 50);
+    @include padding(2);
+    &:hover{
+      @include bg('blue', 50, vivid);
+      @include color(white);
+    }
+  }
+}

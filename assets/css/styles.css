@@ -14949,3 +14949,14 @@ body {
 nav a {
   color: white;
   text-decoration: none; }
+
+.nav-link {
+  padding: 1rem; }
+  .nav-link:hover {
+    color: #c3502a; }
+  .nav-link-signin {
+    background-color: #c3502a;
+    padding: 1rem; }
+    .nav-link-signin:hover {
+      background-color: #007ade;
+      color: white; }

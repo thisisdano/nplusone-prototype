@@ -2,7 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 assets/js/build
-assets/fonts/uswds
 assets/img/uswds
 node_modules
 .gz
