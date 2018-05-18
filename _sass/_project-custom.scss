@@ -40,16 +40,24 @@ nav a {
 }
 
 .nav-link {
-  @include padding(2);
+  @include padding-x(105);
+  @include padding-y(2);
+  @include line-height('sans', 1);
+  @include size('sans', 3);
+  @include text(500);
   &:hover{
     @include color('red-warm', 50);
   }
   &-signin {
+    @extend .nav-link;
     @include bg('red-warm', 50);
-    @include padding(2);
     &:hover{
       @include bg('blue', 50, vivid);
       @include color(white);
     }
+  }
+  @include at-media('desktop'){
+    @include padding(2);
+    @include size('sans', 4);
   }
 }
