@@ -14998,14 +14998,21 @@ nav a {
   color: white;
   text-decoration: none; }
 
-.nav-link, .nav-link-signin {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+.nav {
   line-height: 1;
   font-size: 0.875rem;
   font-weight: 500; }
+  @media screen and (min-width: 64em) {
+    .nav {
+      font-size: 0.9375rem; } }
+
+.nav-link, .nav-link-signin {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  padding-bottom: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem; }
   .nav-link:hover, .nav-link-signin:hover {
     color: #c3502a; }
   .nav-link-signin {
@@ -15015,5 +15022,5 @@ nav a {
       color: white; }
   @media screen and (min-width: 64em) {
     .nav-link, .nav-link-signin {
-      padding: 1rem;
-      font-size: 0.9375rem; } }
+      padding-left: 1rem;
+      padding-right: 1rem; } }
