@@ -19,3 +19,22 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
+
+html {
+  font-size: $theme-root-font-size;
+}
+
+body {
+  @include family('sans');
+  @include size('sans', 6);
+  @include margin(0);
+}
+
+.add-smoothing {
+  @include font-smoothing;
+}
+
+nav a {
+  @include color(white);
+  @include text('no-underline');
+}

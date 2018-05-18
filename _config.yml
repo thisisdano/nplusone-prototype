@@ -2,13 +2,7 @@ title: USWDS Sandbox
 baseurl: ""
 url: ""
 
-include: ["_pages", "_process"]
-
-sass:
-  sass_dir: _sass/
-  load_paths:
-    - node_modules/
-  style: compressed
+include: ["_pages"]
 
 exclude:
   - assets/js/src
