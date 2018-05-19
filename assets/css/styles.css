@@ -7230,6 +7230,24 @@ example:
 .bottom-auto {
   bottom: auto !important; }
 
+.bottom-4 {
+  bottom: 2rem !important; }
+
+.bottom-5 {
+  bottom: 2.5rem !important; }
+
+.bottom-6 {
+  bottom: 3rem !important; }
+
+.bottom-7 {
+  bottom: 3.5rem !important; }
+
+.bottom-8 {
+  bottom: 4rem !important; }
+
+.bottom-9 {
+  bottom: 4.5rem !important; }
+
 .shadow-none {
   box-shadow: none !important; }
 
