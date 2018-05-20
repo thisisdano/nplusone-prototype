@@ -3413,832 +3413,1382 @@ example:
 .border-1px {
   border: 1px solid !important; }
 
+.hover\:border-1px:hover {
+  border: 1px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-1px {
-    border: 1px solid !important; } }
+    border: 1px solid !important; }
+    .tablet\:border-1px .tablet\:hover\:border-1px:hover {
+      border: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-1px {
-    border: 1px solid !important; } }
+    border: 1px solid !important; }
+    .desktop\:border-1px .desktop\:hover\:border-1px:hover {
+      border: 1px solid !important; } }
 
 .border-y-1px {
+  border-top: 1px solid !important;
+  border-bottom: 1px solid !important; }
+
+.hover\:border-y-1px:hover {
   border-top: 1px solid !important;
   border-bottom: 1px solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-y-1px {
     border-top: 1px solid !important;
-    border-bottom: 1px solid !important; } }
+    border-bottom: 1px solid !important; }
+    .tablet\:border-y-1px .tablet\:hover\:border-y-1px:hover {
+      border-top: 1px solid !important;
+      border-bottom: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-y-1px {
     border-top: 1px solid !important;
-    border-bottom: 1px solid !important; } }
+    border-bottom: 1px solid !important; }
+    .desktop\:border-y-1px .desktop\:hover\:border-y-1px:hover {
+      border-top: 1px solid !important;
+      border-bottom: 1px solid !important; } }
 
 .border-x-1px {
+  border-left: 1px solid !important;
+  border-right: 1px solid !important; }
+
+.hover\:border-x-1px:hover {
   border-left: 1px solid !important;
   border-right: 1px solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-x-1px {
     border-left: 1px solid !important;
-    border-right: 1px solid !important; } }
+    border-right: 1px solid !important; }
+    .tablet\:border-x-1px .tablet\:hover\:border-x-1px:hover {
+      border-left: 1px solid !important;
+      border-right: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-x-1px {
     border-left: 1px solid !important;
-    border-right: 1px solid !important; } }
+    border-right: 1px solid !important; }
+    .desktop\:border-x-1px .desktop\:hover\:border-x-1px:hover {
+      border-left: 1px solid !important;
+      border-right: 1px solid !important; } }
 
 .border-top-1px {
   border-top: 1px solid !important; }
 
+.hover\:border-top-1px:hover {
+  border-top: 1px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-top-1px {
-    border-top: 1px solid !important; } }
+    border-top: 1px solid !important; }
+    .tablet\:border-top-1px .tablet\:hover\:border-top-1px:hover {
+      border-top: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-top-1px {
-    border-top: 1px solid !important; } }
+    border-top: 1px solid !important; }
+    .desktop\:border-top-1px .desktop\:hover\:border-top-1px:hover {
+      border-top: 1px solid !important; } }
 
 .border-right-1px {
   border-right: 1px solid !important; }
 
+.hover\:border-right-1px:hover {
+  border-right: 1px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-right-1px {
-    border-right: 1px solid !important; } }
+    border-right: 1px solid !important; }
+    .tablet\:border-right-1px .tablet\:hover\:border-right-1px:hover {
+      border-right: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-right-1px {
-    border-right: 1px solid !important; } }
+    border-right: 1px solid !important; }
+    .desktop\:border-right-1px .desktop\:hover\:border-right-1px:hover {
+      border-right: 1px solid !important; } }
 
 .border-bottom-1px {
   border-bottom: 1px solid !important; }
 
+.hover\:border-bottom-1px:hover {
+  border-bottom: 1px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-bottom-1px {
-    border-bottom: 1px solid !important; } }
+    border-bottom: 1px solid !important; }
+    .tablet\:border-bottom-1px .tablet\:hover\:border-bottom-1px:hover {
+      border-bottom: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-bottom-1px {
-    border-bottom: 1px solid !important; } }
+    border-bottom: 1px solid !important; }
+    .desktop\:border-bottom-1px .desktop\:hover\:border-bottom-1px:hover {
+      border-bottom: 1px solid !important; } }
 
 .border-left-1px {
   border-left: 1px solid !important; }
 
+.hover\:border-left-1px:hover {
+  border-left: 1px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-left-1px {
-    border-left: 1px solid !important; } }
+    border-left: 1px solid !important; }
+    .tablet\:border-left-1px .tablet\:hover\:border-left-1px:hover {
+      border-left: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-left-1px {
-    border-left: 1px solid !important; } }
+    border-left: 1px solid !important; }
+    .desktop\:border-left-1px .desktop\:hover\:border-left-1px:hover {
+      border-left: 1px solid !important; } }
 
 .border-2px {
   border: 2px solid !important; }
 
+.hover\:border-2px:hover {
+  border: 2px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-2px {
-    border: 2px solid !important; } }
+    border: 2px solid !important; }
+    .tablet\:border-2px .tablet\:hover\:border-2px:hover {
+      border: 2px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-2px {
-    border: 2px solid !important; } }
+    border: 2px solid !important; }
+    .desktop\:border-2px .desktop\:hover\:border-2px:hover {
+      border: 2px solid !important; } }
 
 .border-y-2px {
+  border-top: 2px solid !important;
+  border-bottom: 2px solid !important; }
+
+.hover\:border-y-2px:hover {
   border-top: 2px solid !important;
   border-bottom: 2px solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-y-2px {
     border-top: 2px solid !important;
-    border-bottom: 2px solid !important; } }
+    border-bottom: 2px solid !important; }
+    .tablet\:border-y-2px .tablet\:hover\:border-y-2px:hover {
+      border-top: 2px solid !important;
+      border-bottom: 2px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-y-2px {
     border-top: 2px solid !important;
-    border-bottom: 2px solid !important; } }
+    border-bottom: 2px solid !important; }
+    .desktop\:border-y-2px .desktop\:hover\:border-y-2px:hover {
+      border-top: 2px solid !important;
+      border-bottom: 2px solid !important; } }
 
 .border-x-2px {
+  border-left: 2px solid !important;
+  border-right: 2px solid !important; }
+
+.hover\:border-x-2px:hover {
   border-left: 2px solid !important;
   border-right: 2px solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-x-2px {
     border-left: 2px solid !important;
-    border-right: 2px solid !important; } }
+    border-right: 2px solid !important; }
+    .tablet\:border-x-2px .tablet\:hover\:border-x-2px:hover {
+      border-left: 2px solid !important;
+      border-right: 2px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-x-2px {
     border-left: 2px solid !important;
-    border-right: 2px solid !important; } }
+    border-right: 2px solid !important; }
+    .desktop\:border-x-2px .desktop\:hover\:border-x-2px:hover {
+      border-left: 2px solid !important;
+      border-right: 2px solid !important; } }
 
 .border-top-2px {
   border-top: 2px solid !important; }
 
+.hover\:border-top-2px:hover {
+  border-top: 2px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-top-2px {
-    border-top: 2px solid !important; } }
+    border-top: 2px solid !important; }
+    .tablet\:border-top-2px .tablet\:hover\:border-top-2px:hover {
+      border-top: 2px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-top-2px {
-    border-top: 2px solid !important; } }
+    border-top: 2px solid !important; }
+    .desktop\:border-top-2px .desktop\:hover\:border-top-2px:hover {
+      border-top: 2px solid !important; } }
 
 .border-right-2px {
   border-right: 2px solid !important; }
 
+.hover\:border-right-2px:hover {
+  border-right: 2px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-right-2px {
-    border-right: 2px solid !important; } }
+    border-right: 2px solid !important; }
+    .tablet\:border-right-2px .tablet\:hover\:border-right-2px:hover {
+      border-right: 2px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-right-2px {
-    border-right: 2px solid !important; } }
+    border-right: 2px solid !important; }
+    .desktop\:border-right-2px .desktop\:hover\:border-right-2px:hover {
+      border-right: 2px solid !important; } }
 
 .border-bottom-2px {
   border-bottom: 2px solid !important; }
 
+.hover\:border-bottom-2px:hover {
+  border-bottom: 2px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-bottom-2px {
-    border-bottom: 2px solid !important; } }
+    border-bottom: 2px solid !important; }
+    .tablet\:border-bottom-2px .tablet\:hover\:border-bottom-2px:hover {
+      border-bottom: 2px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-bottom-2px {
-    border-bottom: 2px solid !important; } }
+    border-bottom: 2px solid !important; }
+    .desktop\:border-bottom-2px .desktop\:hover\:border-bottom-2px:hover {
+      border-bottom: 2px solid !important; } }
 
 .border-left-2px {
   border-left: 2px solid !important; }
 
+.hover\:border-left-2px:hover {
+  border-left: 2px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-left-2px {
-    border-left: 2px solid !important; } }
+    border-left: 2px solid !important; }
+    .tablet\:border-left-2px .tablet\:hover\:border-left-2px:hover {
+      border-left: 2px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-left-2px {
-    border-left: 2px solid !important; } }
+    border-left: 2px solid !important; }
+    .desktop\:border-left-2px .desktop\:hover\:border-left-2px:hover {
+      border-left: 2px solid !important; } }
 
 .border-05 {
   border: 0.25rem solid !important; }
 
+.hover\:border-05:hover {
+  border: 0.25rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-05 {
-    border: 0.25rem solid !important; } }
+    border: 0.25rem solid !important; }
+    .tablet\:border-05 .tablet\:hover\:border-05:hover {
+      border: 0.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-05 {
-    border: 0.25rem solid !important; } }
+    border: 0.25rem solid !important; }
+    .desktop\:border-05 .desktop\:hover\:border-05:hover {
+      border: 0.25rem solid !important; } }
 
 .border-y-05 {
+  border-top: 0.25rem solid !important;
+  border-bottom: 0.25rem solid !important; }
+
+.hover\:border-y-05:hover {
   border-top: 0.25rem solid !important;
   border-bottom: 0.25rem solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-y-05 {
     border-top: 0.25rem solid !important;
-    border-bottom: 0.25rem solid !important; } }
+    border-bottom: 0.25rem solid !important; }
+    .tablet\:border-y-05 .tablet\:hover\:border-y-05:hover {
+      border-top: 0.25rem solid !important;
+      border-bottom: 0.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-y-05 {
     border-top: 0.25rem solid !important;
-    border-bottom: 0.25rem solid !important; } }
+    border-bottom: 0.25rem solid !important; }
+    .desktop\:border-y-05 .desktop\:hover\:border-y-05:hover {
+      border-top: 0.25rem solid !important;
+      border-bottom: 0.25rem solid !important; } }
 
 .border-x-05 {
+  border-left: 0.25rem solid !important;
+  border-right: 0.25rem solid !important; }
+
+.hover\:border-x-05:hover {
   border-left: 0.25rem solid !important;
   border-right: 0.25rem solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-x-05 {
     border-left: 0.25rem solid !important;
-    border-right: 0.25rem solid !important; } }
+    border-right: 0.25rem solid !important; }
+    .tablet\:border-x-05 .tablet\:hover\:border-x-05:hover {
+      border-left: 0.25rem solid !important;
+      border-right: 0.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-x-05 {
     border-left: 0.25rem solid !important;
-    border-right: 0.25rem solid !important; } }
+    border-right: 0.25rem solid !important; }
+    .desktop\:border-x-05 .desktop\:hover\:border-x-05:hover {
+      border-left: 0.25rem solid !important;
+      border-right: 0.25rem solid !important; } }
 
 .border-top-05 {
   border-top: 0.25rem solid !important; }
 
+.hover\:border-top-05:hover {
+  border-top: 0.25rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-top-05 {
-    border-top: 0.25rem solid !important; } }
+    border-top: 0.25rem solid !important; }
+    .tablet\:border-top-05 .tablet\:hover\:border-top-05:hover {
+      border-top: 0.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-top-05 {
-    border-top: 0.25rem solid !important; } }
+    border-top: 0.25rem solid !important; }
+    .desktop\:border-top-05 .desktop\:hover\:border-top-05:hover {
+      border-top: 0.25rem solid !important; } }
 
 .border-right-05 {
   border-right: 0.25rem solid !important; }
 
+.hover\:border-right-05:hover {
+  border-right: 0.25rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-right-05 {
-    border-right: 0.25rem solid !important; } }
+    border-right: 0.25rem solid !important; }
+    .tablet\:border-right-05 .tablet\:hover\:border-right-05:hover {
+      border-right: 0.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-right-05 {
-    border-right: 0.25rem solid !important; } }
+    border-right: 0.25rem solid !important; }
+    .desktop\:border-right-05 .desktop\:hover\:border-right-05:hover {
+      border-right: 0.25rem solid !important; } }
 
 .border-bottom-05 {
   border-bottom: 0.25rem solid !important; }
 
+.hover\:border-bottom-05:hover {
+  border-bottom: 0.25rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-bottom-05 {
-    border-bottom: 0.25rem solid !important; } }
+    border-bottom: 0.25rem solid !important; }
+    .tablet\:border-bottom-05 .tablet\:hover\:border-bottom-05:hover {
+      border-bottom: 0.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-bottom-05 {
-    border-bottom: 0.25rem solid !important; } }
+    border-bottom: 0.25rem solid !important; }
+    .desktop\:border-bottom-05 .desktop\:hover\:border-bottom-05:hover {
+      border-bottom: 0.25rem solid !important; } }
 
 .border-left-05 {
   border-left: 0.25rem solid !important; }
 
+.hover\:border-left-05:hover {
+  border-left: 0.25rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-left-05 {
-    border-left: 0.25rem solid !important; } }
+    border-left: 0.25rem solid !important; }
+    .tablet\:border-left-05 .tablet\:hover\:border-left-05:hover {
+      border-left: 0.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-left-05 {
-    border-left: 0.25rem solid !important; } }
+    border-left: 0.25rem solid !important; }
+    .desktop\:border-left-05 .desktop\:hover\:border-left-05:hover {
+      border-left: 0.25rem solid !important; } }
 
 .border-1 {
   border: 0.5rem solid !important; }
 
+.hover\:border-1:hover {
+  border: 0.5rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-1 {
-    border: 0.5rem solid !important; } }
+    border: 0.5rem solid !important; }
+    .tablet\:border-1 .tablet\:hover\:border-1:hover {
+      border: 0.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-1 {
-    border: 0.5rem solid !important; } }
+    border: 0.5rem solid !important; }
+    .desktop\:border-1 .desktop\:hover\:border-1:hover {
+      border: 0.5rem solid !important; } }
 
 .border-y-1 {
+  border-top: 0.5rem solid !important;
+  border-bottom: 0.5rem solid !important; }
+
+.hover\:border-y-1:hover {
   border-top: 0.5rem solid !important;
   border-bottom: 0.5rem solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-y-1 {
     border-top: 0.5rem solid !important;
-    border-bottom: 0.5rem solid !important; } }
+    border-bottom: 0.5rem solid !important; }
+    .tablet\:border-y-1 .tablet\:hover\:border-y-1:hover {
+      border-top: 0.5rem solid !important;
+      border-bottom: 0.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-y-1 {
     border-top: 0.5rem solid !important;
-    border-bottom: 0.5rem solid !important; } }
+    border-bottom: 0.5rem solid !important; }
+    .desktop\:border-y-1 .desktop\:hover\:border-y-1:hover {
+      border-top: 0.5rem solid !important;
+      border-bottom: 0.5rem solid !important; } }
 
 .border-x-1 {
+  border-left: 0.5rem solid !important;
+  border-right: 0.5rem solid !important; }
+
+.hover\:border-x-1:hover {
   border-left: 0.5rem solid !important;
   border-right: 0.5rem solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-x-1 {
     border-left: 0.5rem solid !important;
-    border-right: 0.5rem solid !important; } }
+    border-right: 0.5rem solid !important; }
+    .tablet\:border-x-1 .tablet\:hover\:border-x-1:hover {
+      border-left: 0.5rem solid !important;
+      border-right: 0.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-x-1 {
     border-left: 0.5rem solid !important;
-    border-right: 0.5rem solid !important; } }
+    border-right: 0.5rem solid !important; }
+    .desktop\:border-x-1 .desktop\:hover\:border-x-1:hover {
+      border-left: 0.5rem solid !important;
+      border-right: 0.5rem solid !important; } }
 
 .border-top-1 {
   border-top: 0.5rem solid !important; }
 
+.hover\:border-top-1:hover {
+  border-top: 0.5rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-top-1 {
-    border-top: 0.5rem solid !important; } }
+    border-top: 0.5rem solid !important; }
+    .tablet\:border-top-1 .tablet\:hover\:border-top-1:hover {
+      border-top: 0.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-top-1 {
-    border-top: 0.5rem solid !important; } }
+    border-top: 0.5rem solid !important; }
+    .desktop\:border-top-1 .desktop\:hover\:border-top-1:hover {
+      border-top: 0.5rem solid !important; } }
 
 .border-right-1 {
   border-right: 0.5rem solid !important; }
 
+.hover\:border-right-1:hover {
+  border-right: 0.5rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-right-1 {
-    border-right: 0.5rem solid !important; } }
+    border-right: 0.5rem solid !important; }
+    .tablet\:border-right-1 .tablet\:hover\:border-right-1:hover {
+      border-right: 0.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-right-1 {
-    border-right: 0.5rem solid !important; } }
+    border-right: 0.5rem solid !important; }
+    .desktop\:border-right-1 .desktop\:hover\:border-right-1:hover {
+      border-right: 0.5rem solid !important; } }
 
 .border-bottom-1 {
   border-bottom: 0.5rem solid !important; }
 
+.hover\:border-bottom-1:hover {
+  border-bottom: 0.5rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-bottom-1 {
-    border-bottom: 0.5rem solid !important; } }
+    border-bottom: 0.5rem solid !important; }
+    .tablet\:border-bottom-1 .tablet\:hover\:border-bottom-1:hover {
+      border-bottom: 0.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-bottom-1 {
-    border-bottom: 0.5rem solid !important; } }
+    border-bottom: 0.5rem solid !important; }
+    .desktop\:border-bottom-1 .desktop\:hover\:border-bottom-1:hover {
+      border-bottom: 0.5rem solid !important; } }
 
 .border-left-1 {
   border-left: 0.5rem solid !important; }
 
+.hover\:border-left-1:hover {
+  border-left: 0.5rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-left-1 {
-    border-left: 0.5rem solid !important; } }
+    border-left: 0.5rem solid !important; }
+    .tablet\:border-left-1 .tablet\:hover\:border-left-1:hover {
+      border-left: 0.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-left-1 {
-    border-left: 0.5rem solid !important; } }
+    border-left: 0.5rem solid !important; }
+    .desktop\:border-left-1 .desktop\:hover\:border-left-1:hover {
+      border-left: 0.5rem solid !important; } }
 
 .border-105 {
   border: 0.75rem solid !important; }
 
+.hover\:border-105:hover {
+  border: 0.75rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-105 {
-    border: 0.75rem solid !important; } }
+    border: 0.75rem solid !important; }
+    .tablet\:border-105 .tablet\:hover\:border-105:hover {
+      border: 0.75rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-105 {
-    border: 0.75rem solid !important; } }
+    border: 0.75rem solid !important; }
+    .desktop\:border-105 .desktop\:hover\:border-105:hover {
+      border: 0.75rem solid !important; } }
 
 .border-y-105 {
+  border-top: 0.75rem solid !important;
+  border-bottom: 0.75rem solid !important; }
+
+.hover\:border-y-105:hover {
   border-top: 0.75rem solid !important;
   border-bottom: 0.75rem solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-y-105 {
     border-top: 0.75rem solid !important;
-    border-bottom: 0.75rem solid !important; } }
+    border-bottom: 0.75rem solid !important; }
+    .tablet\:border-y-105 .tablet\:hover\:border-y-105:hover {
+      border-top: 0.75rem solid !important;
+      border-bottom: 0.75rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-y-105 {
     border-top: 0.75rem solid !important;
-    border-bottom: 0.75rem solid !important; } }
+    border-bottom: 0.75rem solid !important; }
+    .desktop\:border-y-105 .desktop\:hover\:border-y-105:hover {
+      border-top: 0.75rem solid !important;
+      border-bottom: 0.75rem solid !important; } }
 
 .border-x-105 {
+  border-left: 0.75rem solid !important;
+  border-right: 0.75rem solid !important; }
+
+.hover\:border-x-105:hover {
   border-left: 0.75rem solid !important;
   border-right: 0.75rem solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-x-105 {
     border-left: 0.75rem solid !important;
-    border-right: 0.75rem solid !important; } }
+    border-right: 0.75rem solid !important; }
+    .tablet\:border-x-105 .tablet\:hover\:border-x-105:hover {
+      border-left: 0.75rem solid !important;
+      border-right: 0.75rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-x-105 {
     border-left: 0.75rem solid !important;
-    border-right: 0.75rem solid !important; } }
+    border-right: 0.75rem solid !important; }
+    .desktop\:border-x-105 .desktop\:hover\:border-x-105:hover {
+      border-left: 0.75rem solid !important;
+      border-right: 0.75rem solid !important; } }
 
 .border-top-105 {
   border-top: 0.75rem solid !important; }
 
+.hover\:border-top-105:hover {
+  border-top: 0.75rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-top-105 {
-    border-top: 0.75rem solid !important; } }
+    border-top: 0.75rem solid !important; }
+    .tablet\:border-top-105 .tablet\:hover\:border-top-105:hover {
+      border-top: 0.75rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-top-105 {
-    border-top: 0.75rem solid !important; } }
+    border-top: 0.75rem solid !important; }
+    .desktop\:border-top-105 .desktop\:hover\:border-top-105:hover {
+      border-top: 0.75rem solid !important; } }
 
 .border-right-105 {
   border-right: 0.75rem solid !important; }
 
+.hover\:border-right-105:hover {
+  border-right: 0.75rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-right-105 {
-    border-right: 0.75rem solid !important; } }
+    border-right: 0.75rem solid !important; }
+    .tablet\:border-right-105 .tablet\:hover\:border-right-105:hover {
+      border-right: 0.75rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-right-105 {
-    border-right: 0.75rem solid !important; } }
+    border-right: 0.75rem solid !important; }
+    .desktop\:border-right-105 .desktop\:hover\:border-right-105:hover {
+      border-right: 0.75rem solid !important; } }
 
 .border-bottom-105 {
   border-bottom: 0.75rem solid !important; }
 
+.hover\:border-bottom-105:hover {
+  border-bottom: 0.75rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-bottom-105 {
-    border-bottom: 0.75rem solid !important; } }
+    border-bottom: 0.75rem solid !important; }
+    .tablet\:border-bottom-105 .tablet\:hover\:border-bottom-105:hover {
+      border-bottom: 0.75rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-bottom-105 {
-    border-bottom: 0.75rem solid !important; } }
+    border-bottom: 0.75rem solid !important; }
+    .desktop\:border-bottom-105 .desktop\:hover\:border-bottom-105:hover {
+      border-bottom: 0.75rem solid !important; } }
 
 .border-left-105 {
   border-left: 0.75rem solid !important; }
 
+.hover\:border-left-105:hover {
+  border-left: 0.75rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-left-105 {
-    border-left: 0.75rem solid !important; } }
+    border-left: 0.75rem solid !important; }
+    .tablet\:border-left-105 .tablet\:hover\:border-left-105:hover {
+      border-left: 0.75rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-left-105 {
-    border-left: 0.75rem solid !important; } }
+    border-left: 0.75rem solid !important; }
+    .desktop\:border-left-105 .desktop\:hover\:border-left-105:hover {
+      border-left: 0.75rem solid !important; } }
 
 .border-2 {
   border: 1rem solid !important; }
 
+.hover\:border-2:hover {
+  border: 1rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-2 {
-    border: 1rem solid !important; } }
+    border: 1rem solid !important; }
+    .tablet\:border-2 .tablet\:hover\:border-2:hover {
+      border: 1rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-2 {
-    border: 1rem solid !important; } }
+    border: 1rem solid !important; }
+    .desktop\:border-2 .desktop\:hover\:border-2:hover {
+      border: 1rem solid !important; } }
 
 .border-y-2 {
+  border-top: 1rem solid !important;
+  border-bottom: 1rem solid !important; }
+
+.hover\:border-y-2:hover {
   border-top: 1rem solid !important;
   border-bottom: 1rem solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-y-2 {
     border-top: 1rem solid !important;
-    border-bottom: 1rem solid !important; } }
+    border-bottom: 1rem solid !important; }
+    .tablet\:border-y-2 .tablet\:hover\:border-y-2:hover {
+      border-top: 1rem solid !important;
+      border-bottom: 1rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-y-2 {
     border-top: 1rem solid !important;
-    border-bottom: 1rem solid !important; } }
+    border-bottom: 1rem solid !important; }
+    .desktop\:border-y-2 .desktop\:hover\:border-y-2:hover {
+      border-top: 1rem solid !important;
+      border-bottom: 1rem solid !important; } }
 
 .border-x-2 {
+  border-left: 1rem solid !important;
+  border-right: 1rem solid !important; }
+
+.hover\:border-x-2:hover {
   border-left: 1rem solid !important;
   border-right: 1rem solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-x-2 {
     border-left: 1rem solid !important;
-    border-right: 1rem solid !important; } }
+    border-right: 1rem solid !important; }
+    .tablet\:border-x-2 .tablet\:hover\:border-x-2:hover {
+      border-left: 1rem solid !important;
+      border-right: 1rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-x-2 {
     border-left: 1rem solid !important;
-    border-right: 1rem solid !important; } }
+    border-right: 1rem solid !important; }
+    .desktop\:border-x-2 .desktop\:hover\:border-x-2:hover {
+      border-left: 1rem solid !important;
+      border-right: 1rem solid !important; } }
 
 .border-top-2 {
   border-top: 1rem solid !important; }
 
+.hover\:border-top-2:hover {
+  border-top: 1rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-top-2 {
-    border-top: 1rem solid !important; } }
+    border-top: 1rem solid !important; }
+    .tablet\:border-top-2 .tablet\:hover\:border-top-2:hover {
+      border-top: 1rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-top-2 {
-    border-top: 1rem solid !important; } }
+    border-top: 1rem solid !important; }
+    .desktop\:border-top-2 .desktop\:hover\:border-top-2:hover {
+      border-top: 1rem solid !important; } }
 
 .border-right-2 {
   border-right: 1rem solid !important; }
 
+.hover\:border-right-2:hover {
+  border-right: 1rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-right-2 {
-    border-right: 1rem solid !important; } }
+    border-right: 1rem solid !important; }
+    .tablet\:border-right-2 .tablet\:hover\:border-right-2:hover {
+      border-right: 1rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-right-2 {
-    border-right: 1rem solid !important; } }
+    border-right: 1rem solid !important; }
+    .desktop\:border-right-2 .desktop\:hover\:border-right-2:hover {
+      border-right: 1rem solid !important; } }
 
 .border-bottom-2 {
   border-bottom: 1rem solid !important; }
 
+.hover\:border-bottom-2:hover {
+  border-bottom: 1rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-bottom-2 {
-    border-bottom: 1rem solid !important; } }
+    border-bottom: 1rem solid !important; }
+    .tablet\:border-bottom-2 .tablet\:hover\:border-bottom-2:hover {
+      border-bottom: 1rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-bottom-2 {
-    border-bottom: 1rem solid !important; } }
+    border-bottom: 1rem solid !important; }
+    .desktop\:border-bottom-2 .desktop\:hover\:border-bottom-2:hover {
+      border-bottom: 1rem solid !important; } }
 
 .border-left-2 {
   border-left: 1rem solid !important; }
 
+.hover\:border-left-2:hover {
+  border-left: 1rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-left-2 {
-    border-left: 1rem solid !important; } }
+    border-left: 1rem solid !important; }
+    .tablet\:border-left-2 .tablet\:hover\:border-left-2:hover {
+      border-left: 1rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-left-2 {
-    border-left: 1rem solid !important; } }
+    border-left: 1rem solid !important; }
+    .desktop\:border-left-2 .desktop\:hover\:border-left-2:hover {
+      border-left: 1rem solid !important; } }
 
 .border-205 {
   border: 1.25rem solid !important; }
 
+.hover\:border-205:hover {
+  border: 1.25rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-205 {
-    border: 1.25rem solid !important; } }
+    border: 1.25rem solid !important; }
+    .tablet\:border-205 .tablet\:hover\:border-205:hover {
+      border: 1.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-205 {
-    border: 1.25rem solid !important; } }
+    border: 1.25rem solid !important; }
+    .desktop\:border-205 .desktop\:hover\:border-205:hover {
+      border: 1.25rem solid !important; } }
 
 .border-y-205 {
+  border-top: 1.25rem solid !important;
+  border-bottom: 1.25rem solid !important; }
+
+.hover\:border-y-205:hover {
   border-top: 1.25rem solid !important;
   border-bottom: 1.25rem solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-y-205 {
     border-top: 1.25rem solid !important;
-    border-bottom: 1.25rem solid !important; } }
+    border-bottom: 1.25rem solid !important; }
+    .tablet\:border-y-205 .tablet\:hover\:border-y-205:hover {
+      border-top: 1.25rem solid !important;
+      border-bottom: 1.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-y-205 {
     border-top: 1.25rem solid !important;
-    border-bottom: 1.25rem solid !important; } }
+    border-bottom: 1.25rem solid !important; }
+    .desktop\:border-y-205 .desktop\:hover\:border-y-205:hover {
+      border-top: 1.25rem solid !important;
+      border-bottom: 1.25rem solid !important; } }
 
 .border-x-205 {
+  border-left: 1.25rem solid !important;
+  border-right: 1.25rem solid !important; }
+
+.hover\:border-x-205:hover {
   border-left: 1.25rem solid !important;
   border-right: 1.25rem solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-x-205 {
     border-left: 1.25rem solid !important;
-    border-right: 1.25rem solid !important; } }
+    border-right: 1.25rem solid !important; }
+    .tablet\:border-x-205 .tablet\:hover\:border-x-205:hover {
+      border-left: 1.25rem solid !important;
+      border-right: 1.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-x-205 {
     border-left: 1.25rem solid !important;
-    border-right: 1.25rem solid !important; } }
+    border-right: 1.25rem solid !important; }
+    .desktop\:border-x-205 .desktop\:hover\:border-x-205:hover {
+      border-left: 1.25rem solid !important;
+      border-right: 1.25rem solid !important; } }
 
 .border-top-205 {
   border-top: 1.25rem solid !important; }
 
+.hover\:border-top-205:hover {
+  border-top: 1.25rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-top-205 {
-    border-top: 1.25rem solid !important; } }
+    border-top: 1.25rem solid !important; }
+    .tablet\:border-top-205 .tablet\:hover\:border-top-205:hover {
+      border-top: 1.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-top-205 {
-    border-top: 1.25rem solid !important; } }
+    border-top: 1.25rem solid !important; }
+    .desktop\:border-top-205 .desktop\:hover\:border-top-205:hover {
+      border-top: 1.25rem solid !important; } }
 
 .border-right-205 {
   border-right: 1.25rem solid !important; }
 
+.hover\:border-right-205:hover {
+  border-right: 1.25rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-right-205 {
-    border-right: 1.25rem solid !important; } }
+    border-right: 1.25rem solid !important; }
+    .tablet\:border-right-205 .tablet\:hover\:border-right-205:hover {
+      border-right: 1.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-right-205 {
-    border-right: 1.25rem solid !important; } }
+    border-right: 1.25rem solid !important; }
+    .desktop\:border-right-205 .desktop\:hover\:border-right-205:hover {
+      border-right: 1.25rem solid !important; } }
 
 .border-bottom-205 {
   border-bottom: 1.25rem solid !important; }
 
+.hover\:border-bottom-205:hover {
+  border-bottom: 1.25rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-bottom-205 {
-    border-bottom: 1.25rem solid !important; } }
+    border-bottom: 1.25rem solid !important; }
+    .tablet\:border-bottom-205 .tablet\:hover\:border-bottom-205:hover {
+      border-bottom: 1.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-bottom-205 {
-    border-bottom: 1.25rem solid !important; } }
+    border-bottom: 1.25rem solid !important; }
+    .desktop\:border-bottom-205 .desktop\:hover\:border-bottom-205:hover {
+      border-bottom: 1.25rem solid !important; } }
 
 .border-left-205 {
   border-left: 1.25rem solid !important; }
 
+.hover\:border-left-205:hover {
+  border-left: 1.25rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-left-205 {
-    border-left: 1.25rem solid !important; } }
+    border-left: 1.25rem solid !important; }
+    .tablet\:border-left-205 .tablet\:hover\:border-left-205:hover {
+      border-left: 1.25rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-left-205 {
-    border-left: 1.25rem solid !important; } }
+    border-left: 1.25rem solid !important; }
+    .desktop\:border-left-205 .desktop\:hover\:border-left-205:hover {
+      border-left: 1.25rem solid !important; } }
 
 .border-3 {
   border: 1.5rem solid !important; }
 
+.hover\:border-3:hover {
+  border: 1.5rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-3 {
-    border: 1.5rem solid !important; } }
+    border: 1.5rem solid !important; }
+    .tablet\:border-3 .tablet\:hover\:border-3:hover {
+      border: 1.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-3 {
-    border: 1.5rem solid !important; } }
+    border: 1.5rem solid !important; }
+    .desktop\:border-3 .desktop\:hover\:border-3:hover {
+      border: 1.5rem solid !important; } }
 
 .border-y-3 {
+  border-top: 1.5rem solid !important;
+  border-bottom: 1.5rem solid !important; }
+
+.hover\:border-y-3:hover {
   border-top: 1.5rem solid !important;
   border-bottom: 1.5rem solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-y-3 {
     border-top: 1.5rem solid !important;
-    border-bottom: 1.5rem solid !important; } }
+    border-bottom: 1.5rem solid !important; }
+    .tablet\:border-y-3 .tablet\:hover\:border-y-3:hover {
+      border-top: 1.5rem solid !important;
+      border-bottom: 1.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-y-3 {
     border-top: 1.5rem solid !important;
-    border-bottom: 1.5rem solid !important; } }
+    border-bottom: 1.5rem solid !important; }
+    .desktop\:border-y-3 .desktop\:hover\:border-y-3:hover {
+      border-top: 1.5rem solid !important;
+      border-bottom: 1.5rem solid !important; } }
 
 .border-x-3 {
+  border-left: 1.5rem solid !important;
+  border-right: 1.5rem solid !important; }
+
+.hover\:border-x-3:hover {
   border-left: 1.5rem solid !important;
   border-right: 1.5rem solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-x-3 {
     border-left: 1.5rem solid !important;
-    border-right: 1.5rem solid !important; } }
+    border-right: 1.5rem solid !important; }
+    .tablet\:border-x-3 .tablet\:hover\:border-x-3:hover {
+      border-left: 1.5rem solid !important;
+      border-right: 1.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-x-3 {
     border-left: 1.5rem solid !important;
-    border-right: 1.5rem solid !important; } }
+    border-right: 1.5rem solid !important; }
+    .desktop\:border-x-3 .desktop\:hover\:border-x-3:hover {
+      border-left: 1.5rem solid !important;
+      border-right: 1.5rem solid !important; } }
 
 .border-top-3 {
   border-top: 1.5rem solid !important; }
 
+.hover\:border-top-3:hover {
+  border-top: 1.5rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-top-3 {
-    border-top: 1.5rem solid !important; } }
+    border-top: 1.5rem solid !important; }
+    .tablet\:border-top-3 .tablet\:hover\:border-top-3:hover {
+      border-top: 1.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-top-3 {
-    border-top: 1.5rem solid !important; } }
+    border-top: 1.5rem solid !important; }
+    .desktop\:border-top-3 .desktop\:hover\:border-top-3:hover {
+      border-top: 1.5rem solid !important; } }
 
 .border-right-3 {
   border-right: 1.5rem solid !important; }
 
+.hover\:border-right-3:hover {
+  border-right: 1.5rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-right-3 {
-    border-right: 1.5rem solid !important; } }
+    border-right: 1.5rem solid !important; }
+    .tablet\:border-right-3 .tablet\:hover\:border-right-3:hover {
+      border-right: 1.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-right-3 {
-    border-right: 1.5rem solid !important; } }
+    border-right: 1.5rem solid !important; }
+    .desktop\:border-right-3 .desktop\:hover\:border-right-3:hover {
+      border-right: 1.5rem solid !important; } }
 
 .border-bottom-3 {
   border-bottom: 1.5rem solid !important; }
 
+.hover\:border-bottom-3:hover {
+  border-bottom: 1.5rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-bottom-3 {
-    border-bottom: 1.5rem solid !important; } }
+    border-bottom: 1.5rem solid !important; }
+    .tablet\:border-bottom-3 .tablet\:hover\:border-bottom-3:hover {
+      border-bottom: 1.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-bottom-3 {
-    border-bottom: 1.5rem solid !important; } }
+    border-bottom: 1.5rem solid !important; }
+    .desktop\:border-bottom-3 .desktop\:hover\:border-bottom-3:hover {
+      border-bottom: 1.5rem solid !important; } }
 
 .border-left-3 {
   border-left: 1.5rem solid !important; }
 
+.hover\:border-left-3:hover {
+  border-left: 1.5rem solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-left-3 {
-    border-left: 1.5rem solid !important; } }
+    border-left: 1.5rem solid !important; }
+    .tablet\:border-left-3 .tablet\:hover\:border-left-3:hover {
+      border-left: 1.5rem solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-left-3 {
-    border-left: 1.5rem solid !important; } }
+    border-left: 1.5rem solid !important; }
+    .desktop\:border-left-3 .desktop\:hover\:border-left-3:hover {
+      border-left: 1.5rem solid !important; } }
 
 .border-0 {
   border: 0 solid !important; }
 
+.hover\:border-0:hover {
+  border: 0 solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-0 {
-    border: 0 solid !important; } }
+    border: 0 solid !important; }
+    .tablet\:border-0 .tablet\:hover\:border-0:hover {
+      border: 0 solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-0 {
-    border: 0 solid !important; } }
+    border: 0 solid !important; }
+    .desktop\:border-0 .desktop\:hover\:border-0:hover {
+      border: 0 solid !important; } }
 
 .border-y-0 {
+  border-top: 0 solid !important;
+  border-bottom: 0 solid !important; }
+
+.hover\:border-y-0:hover {
   border-top: 0 solid !important;
   border-bottom: 0 solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-y-0 {
     border-top: 0 solid !important;
-    border-bottom: 0 solid !important; } }
+    border-bottom: 0 solid !important; }
+    .tablet\:border-y-0 .tablet\:hover\:border-y-0:hover {
+      border-top: 0 solid !important;
+      border-bottom: 0 solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-y-0 {
     border-top: 0 solid !important;
-    border-bottom: 0 solid !important; } }
+    border-bottom: 0 solid !important; }
+    .desktop\:border-y-0 .desktop\:hover\:border-y-0:hover {
+      border-top: 0 solid !important;
+      border-bottom: 0 solid !important; } }
 
 .border-x-0 {
+  border-left: 0 solid !important;
+  border-right: 0 solid !important; }
+
+.hover\:border-x-0:hover {
   border-left: 0 solid !important;
   border-right: 0 solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-x-0 {
     border-left: 0 solid !important;
-    border-right: 0 solid !important; } }
+    border-right: 0 solid !important; }
+    .tablet\:border-x-0 .tablet\:hover\:border-x-0:hover {
+      border-left: 0 solid !important;
+      border-right: 0 solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-x-0 {
     border-left: 0 solid !important;
-    border-right: 0 solid !important; } }
+    border-right: 0 solid !important; }
+    .desktop\:border-x-0 .desktop\:hover\:border-x-0:hover {
+      border-left: 0 solid !important;
+      border-right: 0 solid !important; } }
 
 .border-top-0 {
   border-top: 0 solid !important; }
 
+.hover\:border-top-0:hover {
+  border-top: 0 solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-top-0 {
-    border-top: 0 solid !important; } }
+    border-top: 0 solid !important; }
+    .tablet\:border-top-0 .tablet\:hover\:border-top-0:hover {
+      border-top: 0 solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-top-0 {
-    border-top: 0 solid !important; } }
+    border-top: 0 solid !important; }
+    .desktop\:border-top-0 .desktop\:hover\:border-top-0:hover {
+      border-top: 0 solid !important; } }
 
 .border-right-0 {
   border-right: 0 solid !important; }
 
+.hover\:border-right-0:hover {
+  border-right: 0 solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-right-0 {
-    border-right: 0 solid !important; } }
+    border-right: 0 solid !important; }
+    .tablet\:border-right-0 .tablet\:hover\:border-right-0:hover {
+      border-right: 0 solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-right-0 {
-    border-right: 0 solid !important; } }
+    border-right: 0 solid !important; }
+    .desktop\:border-right-0 .desktop\:hover\:border-right-0:hover {
+      border-right: 0 solid !important; } }
 
 .border-bottom-0 {
   border-bottom: 0 solid !important; }
 
+.hover\:border-bottom-0:hover {
+  border-bottom: 0 solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-bottom-0 {
-    border-bottom: 0 solid !important; } }
+    border-bottom: 0 solid !important; }
+    .tablet\:border-bottom-0 .tablet\:hover\:border-bottom-0:hover {
+      border-bottom: 0 solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-bottom-0 {
-    border-bottom: 0 solid !important; } }
+    border-bottom: 0 solid !important; }
+    .desktop\:border-bottom-0 .desktop\:hover\:border-bottom-0:hover {
+      border-bottom: 0 solid !important; } }
 
 .border-left-0 {
   border-left: 0 solid !important; }
 
+.hover\:border-left-0:hover {
+  border-left: 0 solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-left-0 {
-    border-left: 0 solid !important; } }
+    border-left: 0 solid !important; }
+    .tablet\:border-left-0 .tablet\:hover\:border-left-0:hover {
+      border-left: 0 solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-left-0 {
-    border-left: 0 solid !important; } }
+    border-left: 0 solid !important; }
+    .desktop\:border-left-0 .desktop\:hover\:border-left-0:hover {
+      border-left: 0 solid !important; } }
 
 .border {
   border: 1px solid !important; }
 
+.hover\:border:hover {
+  border: 1px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border {
-    border: 1px solid !important; } }
+    border: 1px solid !important; }
+    .tablet\:border .tablet\:hover\:border:hover {
+      border: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border {
-    border: 1px solid !important; } }
+    border: 1px solid !important; }
+    .desktop\:border .desktop\:hover\:border:hover {
+      border: 1px solid !important; } }
 
 .border-y {
+  border-top: 1px solid !important;
+  border-bottom: 1px solid !important; }
+
+.hover\:border-y:hover {
   border-top: 1px solid !important;
   border-bottom: 1px solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-y {
     border-top: 1px solid !important;
-    border-bottom: 1px solid !important; } }
+    border-bottom: 1px solid !important; }
+    .tablet\:border-y .tablet\:hover\:border-y:hover {
+      border-top: 1px solid !important;
+      border-bottom: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-y {
     border-top: 1px solid !important;
-    border-bottom: 1px solid !important; } }
+    border-bottom: 1px solid !important; }
+    .desktop\:border-y .desktop\:hover\:border-y:hover {
+      border-top: 1px solid !important;
+      border-bottom: 1px solid !important; } }
 
 .border-x {
+  border-left: 1px solid !important;
+  border-right: 1px solid !important; }
+
+.hover\:border-x:hover {
   border-left: 1px solid !important;
   border-right: 1px solid !important; }
 
 @media (min-width: 40em) {
   .tablet\:border-x {
     border-left: 1px solid !important;
-    border-right: 1px solid !important; } }
+    border-right: 1px solid !important; }
+    .tablet\:border-x .tablet\:hover\:border-x:hover {
+      border-left: 1px solid !important;
+      border-right: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-x {
     border-left: 1px solid !important;
-    border-right: 1px solid !important; } }
+    border-right: 1px solid !important; }
+    .desktop\:border-x .desktop\:hover\:border-x:hover {
+      border-left: 1px solid !important;
+      border-right: 1px solid !important; } }
 
 .border-top {
   border-top: 1px solid !important; }
 
+.hover\:border-top:hover {
+  border-top: 1px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-top {
-    border-top: 1px solid !important; } }
+    border-top: 1px solid !important; }
+    .tablet\:border-top .tablet\:hover\:border-top:hover {
+      border-top: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-top {
-    border-top: 1px solid !important; } }
+    border-top: 1px solid !important; }
+    .desktop\:border-top .desktop\:hover\:border-top:hover {
+      border-top: 1px solid !important; } }
 
 .border-right {
   border-right: 1px solid !important; }
 
+.hover\:border-right:hover {
+  border-right: 1px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-right {
-    border-right: 1px solid !important; } }
+    border-right: 1px solid !important; }
+    .tablet\:border-right .tablet\:hover\:border-right:hover {
+      border-right: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-right {
-    border-right: 1px solid !important; } }
+    border-right: 1px solid !important; }
+    .desktop\:border-right .desktop\:hover\:border-right:hover {
+      border-right: 1px solid !important; } }
 
 .border-bottom {
   border-bottom: 1px solid !important; }
 
+.hover\:border-bottom:hover {
+  border-bottom: 1px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-bottom {
-    border-bottom: 1px solid !important; } }
+    border-bottom: 1px solid !important; }
+    .tablet\:border-bottom .tablet\:hover\:border-bottom:hover {
+      border-bottom: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-bottom {
-    border-bottom: 1px solid !important; } }
+    border-bottom: 1px solid !important; }
+    .desktop\:border-bottom .desktop\:hover\:border-bottom:hover {
+      border-bottom: 1px solid !important; } }
 
 .border-left {
   border-left: 1px solid !important; }
 
+.hover\:border-left:hover {
+  border-left: 1px solid !important; }
+
 @media (min-width: 40em) {
   .tablet\:border-left {
-    border-left: 1px solid !important; } }
+    border-left: 1px solid !important; }
+    .tablet\:border-left .tablet\:hover\:border-left:hover {
+      border-left: 1px solid !important; } }
 
 @media (min-width: 64em) {
   .desktop\:border-left {
-    border-left: 1px solid !important; } }
+    border-left: 1px solid !important; }
+    .desktop\:border-left .desktop\:hover\:border-left:hover {
+      border-left: 1px solid !important; } }
 
 .border-transparent {
   border-color: transparent !important; }
