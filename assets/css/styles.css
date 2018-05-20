@@ -2949,10 +2949,10 @@ example:
 ----------------------------------------
 */
 .flex-align-start {
-  align-items: start !important; }
+  align-items: flex-start !important; }
 
 .flex-align-end {
-  align-items: end !important; }
+  align-items: flex-end !important; }
 
 .flex-align-center {
   align-items: center !important; }
