@@ -243,15 +243,15 @@ Palette colors
 ----------------------------------------
 */
 
-$theme-color-base:             black;
-$theme-color-base-lightest:    white;
-$theme-color-base-lighter:     $theme-color-base, 5;
-$theme-color-base-light:       $theme-color-base, 50;
-$theme-color-base-base:        $theme-color-base, 80;
-$theme-color-base-dark:        $theme-color-base, 90;
-$theme-color-base-darker:      false;
+$theme-color-gray:             'gray-warm';
+$theme-color-gray-lightest:    $theme-color-gray, 1;
+$theme-color-gray-lighter:     $theme-color-gray, 5;
+$theme-color-gray-light:       $theme-color-gray, 10;
+$theme-color-gray-base:        $theme-color-gray, 30;
+$theme-color-gray-dark:        $theme-color-gray, 70;
+$theme-color-gray-darker:      $theme-color-gray, 90;
 
-$theme-color-primary:             blue;
+$theme-color-primary:             'red-warm';
 $theme-color-primary-lighter:     $theme-color-primary, 10;
 $theme-color-primary-light:       $theme-color-primary, 30;
 $theme-color-primary-base:        $theme-color-primary, 50;
@@ -259,9 +259,9 @@ $theme-color-primary-vivid:       $theme-color-primary, 50, vivid;
 $theme-color-primary-dark:        $theme-color-primary, 70;
 $theme-color-primary-darker:      false;
 
-$theme-color-secondary:           red;
+$theme-color-secondary:           blue;
 $theme-color-secondary-light:     $theme-color-secondary, 50;
-$theme-color-secondary-base:      $theme-color-secondary, 60;
+$theme-color-secondary-base:      $theme-color-secondary, 50, vivid;
 $theme-color-secondary-vivid:     $theme-color-secondary, 50, vivid;
 $theme-color-secondary-dark:      $theme-color-secondary, 80;
 
