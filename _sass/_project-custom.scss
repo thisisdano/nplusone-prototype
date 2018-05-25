@@ -25,47 +25,47 @@ html {
 }
 
 body {
-  @include family('sans');
-  @include size('sans', 6);
-  @include margin(0);
+  @include u-family('sans');
+  @include u-size('sans', 6);
+  @include u-margin(0);
 }
 
 .add-smoothing {
-  @include font-smoothing;
+  @include add-font-smoothing;
 }
 
 nav a {
-  @include color(white);
-  @include text('no-underline');
+  @include u-color(white);
+  @include u-text('no-underline');
 }
 
 .nav {
-  @include line-height('sans', 1);
-  @include size('sans', 3);
-  @include text(500);
+  @include u-line-height('sans', 1);
+  @include u-size('sans', 3);
+  @include u-text(500);
   @include at-media('desktop'){
-    @include size('sans', 4);
+    @include u-size('sans', 4);
   }
 }
 
 .nav-link {
-  @include display(flex);
-  @include flex('align-center');
-  @include height(6);
-  @include padding-bottom(1px);
-  @include padding-x(2);
+  @include u-display(flex);
+  @include u-flex('align-center');
+  @include u-height(6);
+  @include u-padding-bottom(1px);
+  @include u-padding-x(2);
   &:hover{
-    @include color('red-warm', 50);
+    @include u-color($primary);
   }
   &-signin {
     @extend .nav-link;
-    @include bg('red-warm', 50);
+    @include u-bg($primary);
     &:hover{
-      @include bg('blue', 50, vivid);
-      @include color(white);
+      @include u-bg($secondary);
+      @include u-color(white);
     }
   }
   @include at-media('desktop'){
-    @include padding-x(2);
+    @include u-padding-x(2);
   }
 }

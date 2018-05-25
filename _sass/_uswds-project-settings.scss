@@ -15,8 +15,6 @@ PROJECT THEME SETTINGS
 ----------------------------------------
 */
 
-@function units($u) { @return $u; }
-
 /*
 ----------------------------------------
 Namespace
@@ -29,12 +27,12 @@ $theme-namespace: (
     output:     true,
   ),
   'grid': (
-    namespace:  'g-',
-    output:     false,
+    namespace:  'grid-',
+    output:     true,
   ),
   'object': (
-    namespace:  'o-',
-    output:     false,
+    namespace:  'add-',
+    output:     true,
   ),
   'utility': (
     namespace:  'u-',
@@ -243,39 +241,36 @@ Palette colors
 ----------------------------------------
 */
 
-$theme-color-gray:             'gray-warm';
-$theme-color-gray-lightest:    $theme-color-gray, 1;
-$theme-color-gray-lighter:     $theme-color-gray, 5;
-$theme-color-gray-light:       $theme-color-gray, 10;
-$theme-color-gray-base:        $theme-color-gray, 30;
-$theme-color-gray-dark:        $theme-color-gray, 70;
-$theme-color-gray-darker:      $theme-color-gray, 90;
+$theme-color-base-family:      'gray-warm';
+$theme-color-base-lightest:    $theme-color-base-family, 1;
+$theme-color-base-lighter:     $theme-color-base-family, 5;
+$theme-color-base-light:       $theme-color-base-family, 10;
+$theme-color-base:             $theme-color-base-family, 30;
+$theme-color-base-dark:        $theme-color-base-family, 50;
+$theme-color-base-darker:      $theme-color-base-family, 70;
+$theme-color-base-darkest:     $theme-color-base-family, 90;
 
-$theme-color-primary:             'red-warm';
-$theme-color-primary-lighter:     $theme-color-primary, 10;
-$theme-color-primary-light:       $theme-color-primary, 30;
-$theme-color-primary-base:        $theme-color-primary, 50;
-$theme-color-primary-vivid:       $theme-color-primary, 50, vivid;
-$theme-color-primary-dark:        $theme-color-primary, 70;
+$theme-color-primary-family:      'red-warm';
+$theme-color-primary-lighter:     $theme-color-primary-family, 10;
+$theme-color-primary-light:       $theme-color-primary-family, 30;
+$theme-color-primary:             $theme-color-primary-family, 50;
+$theme-color-primary-vivid:       $theme-color-primary-family, 50, vivid;
+$theme-color-primary-dark:        $theme-color-primary-family, 70;
 $theme-color-primary-darker:      false;
 
-$theme-color-secondary:           blue;
-$theme-color-secondary-light:     $theme-color-secondary, 50;
-$theme-color-secondary-base:      $theme-color-secondary, 50, vivid;
-$theme-color-secondary-vivid:     $theme-color-secondary, 50, vivid;
-$theme-color-secondary-dark:      $theme-color-secondary, 80;
+$theme-color-secondary-family:           blue;
+$theme-color-secondary-light:     $theme-color-secondary-family, 50;
+$theme-color-secondary:           $theme-color-secondary-family, 50, vivid;
+$theme-color-secondary-vivid:     $theme-color-secondary-family, 50, vivid;
+$theme-color-secondary-dark:      $theme-color-secondary-family, 80;
 
-$theme-color-accent-warm:         orange;
-$theme-color-accent-warm-base:    $theme-color-accent-warm, 30, vivid;
-$theme-color-accent-warm-dark:    $theme-color-accent-warm, 60, vivid;
+$theme-color-accent-warm-family:         orange;
+$theme-color-accent-warm:         $theme-color-accent-warm-family, 30, vivid;
+$theme-color-accent-warm-dark:    $theme-color-accent-warm-family, 60, vivid;
 
-$theme-color-accent-cool:         cyan;
-$theme-color-accent-cool-base:    $theme-color-accent-cool, 30, vivid;
-$theme-color-accent-cool-dark:    $theme-color-accent-cool, 60, vivid;
-
-$theme-color-inverse:             white;
-$theme-color-inverse-base:        $theme-color-inverse;
-$theme-color-inverse-dark:        black, 10;
+$theme-color-accent-cool-family:         cyan;
+$theme-color-accent-cool:         $theme-color-accent-cool-family, 30, vivid;
+$theme-color-accent-cool-dark:    $theme-color-accent-cool-family, 60, vivid;
 
 /*
 ----------------------------------------
@@ -331,8 +326,8 @@ units(9)       72px
 */
 
 $theme-border-radius-sm:       2px;
-$theme-border-radius-md:       units('05');
-$theme-border-radius-lg:       units(1);
+$theme-border-radius-md:       .5;
+$theme-border-radius-lg:       1;
 
 /*
 ----------------------------------------
@@ -349,5 +344,5 @@ units(5)    48px
 */
 
 $theme-column-gap-small: 2px;
-$theme-column-gap:       units(2);
-$theme-column-gap-large: units(3);
+$theme-column-gap:       2;
+$theme-column-gap-large: 3;
