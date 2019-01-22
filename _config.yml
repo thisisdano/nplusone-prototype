@@ -1,7 +1,6 @@
-title: USWDS Sandbox
+title: n+1
 baseurl: "/nplusone-prototype"
 url: ""
-
 include: ["_pages"]
 
 exclude:
