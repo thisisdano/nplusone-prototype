@@ -52,6 +52,9 @@ const JS_DEST = './assets/uswds/js';
 // Compiled CSS destination
 const CSS_DEST = './assets/uswds/css';
 
+// Generated site CSS destination
+const GEN_CSS_DEST = './_site/assets/uswds/css';
+
 /*
 ----------------------------------------
 TASKS
@@ -104,6 +107,7 @@ gulp.task('build-sass', function(done) {
       }))
     .pipe(postcss(plugins))
     .pipe(gulp.dest(`${CSS_DEST}`))
+    .pipe(gulp.dest(`${GEN_CSS_DEST}`))
     .pipe(sourcemaps.write('.'))
     .pipe(notify({
       "sound": "Pop" // case sensitive

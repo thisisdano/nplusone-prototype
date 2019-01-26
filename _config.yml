@@ -3,6 +3,13 @@ baseurl: "/nplusone-prototype"
 url: ""
 include: ["_pages"]
 
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+
+webserver_headers:
+  "Access-Control-Allow-Origin": "*"
+
 exclude:
   - assets/js/src
   - Gemfile*

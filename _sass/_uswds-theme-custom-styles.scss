@@ -1,0 +1,74 @@
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+----------------------------------------
+USWDS THEME CUSTOM STYLES
+----------------------------------------
+!! Copy this file to your project's
+   sass root. Don't edit the version
+   in node_modules.
+----------------------------------------
+Custom project SASS goes here.
+
+i.e.
+@include u-padding-right('05');
+----------------------------------------
+*/
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body {
+  @include u-font-family('sans');
+  @include u-font-size('sans', 6);
+  @include u-margin(0);
+}
+
+.add-smoothing {
+  //@include add-font-smoothing;
+}
+
+nav a {
+  @include u-color('white');
+  @include u-text('no-underline');
+}
+
+.nav {
+  @include u-line-height('sans', 1);
+  @include u-font-size('sans', 3);
+  @include u-text(500);
+  @include at-media('desktop'){
+    @include u-font-size('sans', 4);
+  }
+}
+
+.nav-link {
+  @include u-display(flex);
+  @include u-flex('align-center');
+  @include u-height(6);
+  @include u-padding-bottom(1px);
+  @include u-padding-x(2);
+  &:hover{
+    @include u-color('primary');
+  }
+  &-signin {
+    @extend .nav-link;
+    @include u-bg('primary');
+    &:hover{
+      @include u-bg('secondary');
+      @include u-color('white');
+    }
+  }
+  @include at-media('desktop'){
+    @include u-padding-x(2);
+  }
+}
